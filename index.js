@@ -7,7 +7,8 @@
 // Проверьте работу скрипта при a и b, равных соответственно 3 и 5, 6 и 1.
 
 
-const num1 = Number(prompt('Enter the first number'));
-const num2 = Number(prompt('Enter the second number'));
+const a = Number(prompt('Enter the first number'));
+const b = Number(prompt('Enter the second number'));
+const c = Math.abs(a - b);
 
-alert(`Модуль разности ${num1} и ${num2} = ${Math.abs(num1 - num2)}`)
+alert(c);
