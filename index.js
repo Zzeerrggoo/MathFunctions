@@ -2,7 +2,5 @@
 // 2) Найдите квадратный корень из 587. Округлите результат в большую и меньшую стороны,
 // запишите результаты округления в объект с ключами 'floor' и 'ceil'.
 
-
-alert(Math.sqrt(379).toFixed());
-alert(Math.sqrt(379).toFixed(1));
-alert(Math.sqrt(379).toFixed(2));
+alert(`Floor sqrt of 587 :  ${Math.floor(Math.sqrt(587))}`);
+alert(`Ceil sqrt of 587  :  ${Math.ceil(Math.sqrt(587))}`);
