@@ -5,20 +5,15 @@
 //    Факториал (обозначается !) - это произведение (умножение) всех целых чисел, меньше данного, и его самого.
 //    Например, 4! = 1*2*3*4.
 
-const arr = [12, 15, 20, 25, 59, 79];
 
+alert(fact(10));
 
-alert(averageOfArray(arr));
+function fact(num) {
 
-function averageOfArray(arr) {
-
-  let res = 0;
-
-  for (let i = 0; i < arr.length; ++i) {
-    res += arr[i];
+  if (num === 1) {
+    return 1;
   }
 
-  if (arr.length > 0)
-    return res / arr.length;
+  return num * fact(--num);
 
 }
